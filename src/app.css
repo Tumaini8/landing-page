@@ -6,6 +6,7 @@
   background: rgb(181, 126, 233);
   color: white;
   background-image: url("bg-mobile.svg");
+  height: 590px;
 }
 .container .btn {
   background: white;
@@ -22,16 +23,31 @@
 }
 .container img {
   width: 455px;
+  position: relative;
+  right: -100px;
 }
 .container p {
   line-height: 1.7;
+  font-size: 20px;
 }
+.container .social-links {
+  margin: 50px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 700px) {
   .container {
     padding: 120px 60px;
     background: rgb(181, 126, 233);
     color: white;
     background-image: url("bg-mobile.svg");
+    height: 800px;
+  }
+  .container img {
+    position: relative;
+    right: 0;
   }
   .container .btn {
     display: block;
@@ -41,7 +57,7 @@
   }
   .container h2 {
     margin: 25px;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 10px;
     text-align: center;
     font-family: bold;
