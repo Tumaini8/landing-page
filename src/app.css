@@ -7,7 +7,6 @@
   color: white;
   background-image: url("bg-mobile.svg");
   height: 590px;
-
 }
 .container .btn {
   background: white;
@@ -32,24 +31,34 @@
   line-height: 1.7;
   font-size: 20px;
 }
-.container .social-links {
-  margin: 50px;
+.social-links {
+  margin-top: 50px;
   float: right;
-  display: flex;
-  flex-direction: column;
+  margin-right: 100px;
+  text-decoration: none;
+}
+.social-links .border {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 100%;
+  background: pink;
+}
+.social-links .border:hover {
+  background: violet;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .container {
     padding: 120px 60px;
     background: rgb(181, 126, 233);
     color: white;
     background-image: url("bg-mobile.svg");
-    height: 800px;
+    height: 740px;
   }
   .container img {
     position: relative;
     right: 0;
+    width: 390px;
   }
   .container .btn {
     display: block;
@@ -71,4 +80,5 @@
   .container img {
     width: 500px;
   }
+  
 }
